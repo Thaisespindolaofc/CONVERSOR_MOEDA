@@ -1,0 +1,23 @@
+
+.currency-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 10px;
+}
+
+.currency-name {
+    color: #777777;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.currency-value {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1B83E2;
+}
+

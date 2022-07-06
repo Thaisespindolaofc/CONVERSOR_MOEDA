@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <title>Conversor</title> 
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+   <script src="conversor.js"></script>
+</head>
+<body style="background-color: #dcdcdc;">
+
+<section class="h-100 h-custom" > 
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-lg-8 col-xl-6">
+        <div class="card rounded-3">
+          <img src="img/capa.png"
+          class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;"
+          alt="Sample photo">
+          <div class="card-body p-4 p-md-5">
+  <div id="interface"> 
+    <h3 class="text-center mb-4 pb-12 pb-md-0 mb-md-3 px-md-2">Conversor de moedas Equasol</h3> 
+      <label>Valor:</label> </span>  
+      <input class="col-md-12 mb-4 form-control" placeholder="R$0,00" id="entrada" type="number">   
+         
+     
+
+      <button class="col-md-12 btn btn-warning btn-lg mb-1" onclick="converter()">Calcular</button>
+      <h3 id="saida"></h3> 
+      <span id="atualizacao"></span>
+
+            
+          </div>
+        </div>
+      </div>
+  </div>  
+</div>
+</section>
+
+
+</body>
+</html>
